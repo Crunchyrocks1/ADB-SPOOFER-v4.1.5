@@ -1,0 +1,108 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #2D3436, #1B1C1D);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+#content_container {
+    width: 40%;
+    height: 70%;
+}
+
+#form_container {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #292B2C;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#form_header_container {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #4A4A4A;
+    background: #1B1C1D;
+}
+
+#form_header {
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Bowlby One SC', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #3498db;
+}
+
+#form_content_container {
+    width: 100%;
+    height: 84%; /* Adjusted height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%; /* Adjusted padding */
+}
+
+#form_content_inner_container {
+    width: 75%;
+    height: 100%;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    padding: 12px; /* Adjusted padding */
+    margin-bottom: 20px;
+    background: #292B2C;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #4A4A4A;
+    border-radius: 5px;
+}
+
+#button_container {
+    width: 100%;
+    margin: 0 auto;
+    height: 10%;
+    background: linear-gradient(90deg, #3498db, #e74c3c);
+    color: #fff;
+    margin-top: 10px;
+}
+
+#button_container button {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    color: inherit;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background 0.3s ease;
+}
+
+#button_container button:hover {
+    background: #2C3E50;
+}
